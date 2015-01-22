@@ -1,5 +1,8 @@
-# photobooth-server
+# node-pi-photobooth
 
+## This project ist under heavy development!
+
+This means, currently no docs are finished!
 
 ## Install
 
