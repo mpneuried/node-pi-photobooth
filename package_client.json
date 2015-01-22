@@ -1,0 +1,29 @@
+{
+  "name": "photobooth-client",
+  "version": "0.0.1",
+  "description": "App description ...",
+  "keywords": [],
+  "homepage": "https://github.com/mpneuried/photobooth-server",
+  "bugs": "https://github.com/mpneuried/photobooth-server/issues",
+  "author": {
+    "name": "mpneuried",
+    "email": "",
+    "url": "https://github.com/photobooth-server"
+  },
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpneuried/photobooth-server.git"
+  },
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "gphoto2": "0.1.x",
+    "lodash": "2.4.x",
+    "extend": "1.2.x",
+    "mpbasic": "0.0.x",
+    "node-cache": "1.x",
+    "socket.io-client": "1.3.x"
+  },
+  "devDependencies": {}
+}

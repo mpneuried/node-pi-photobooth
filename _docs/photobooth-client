@@ -1,0 +1,20 @@
+#! /bin/sh
+# /etc/init.d/photobooth-client
+
+touch /var/lock/raspi-rss
+
+case "$1" in
+start)
+echo "Starting Photobooth Client ... "
+node /home/pi/Sites/photobooth-camera-client/client.js >> /home/pi/Sites/logs/photobooth-camera-client.log 2>&1
+;;
+stop)
+echo "Killing Photobooth Client ..."
+killall client.js
+;;
+*)
+echo "Usage: /etc/init.d/photobooth-client {start|stop}"
+exit 1
+;;
+esac
+exit 0
